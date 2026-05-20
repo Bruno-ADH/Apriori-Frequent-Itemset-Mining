@@ -1,0 +1,16 @@
+# Environnement Python local
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Sorties generees par les scripts
+outputs/
+
+# Fichiers systeme / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
