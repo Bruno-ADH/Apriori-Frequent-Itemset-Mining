@@ -6,7 +6,7 @@ Ce TP implemente l'algorithme **Apriori** pour extraire des itemsets frequents
 et produire des regles d'association a partir de transactions.
 
 Le cas d'application choisi est un panier d'achat. Chaque ligne du dataset
-represente une transaction et contient les produits achetes ensemble.
+represente une transaction et contient les produits achetés ensemble.
 
 ## Dataset
 
