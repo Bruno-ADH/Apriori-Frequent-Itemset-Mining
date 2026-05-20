@@ -143,7 +143,7 @@ def generate_rules(
 def itemsets_to_dataframe(
     frequent_itemsets: dict[frozenset[str], tuple[int, float]]
 ) -> pd.DataFrame:
-    rows = [
+    rows: list[dict[str, object]] = [
         {
             "items": ", ".join(sorted(itemset)),
             "size": len(itemset),
